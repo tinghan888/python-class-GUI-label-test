@@ -1,6 +1,6 @@
 """
 7/13class-method+GUI 作業
-
+我來改一下囉
 """
 # 使用 class 建立
 # 一個class
@@ -15,11 +15,11 @@ print("===== GUI 練習 2====")
 # 產品參考 snowpeak帳篷 https://www.snowpeak.com.tw/SalePage/Index/6106269
 
 class snowClass(object):  # 繼承Python 最上層的object 類別
-    snowName="拱型帳"                                       #定義產品名稱
+    snowName="拱型帳-看起來很兇猛"                                       #定義產品名稱
     snowNumber="SDE-080RH"                                 #定義產品型號
     snowBagSize="60x23x23cm"                               #定義收納體積
-    snowWeight=7.65                                        #定義產品重量
-    snowPeople= 4                                          #定義容納人數
+    snowWeight=8.95                                        #定義產品重量
+    snowPeople= 8                                          #定義容納人數
     def __init__(self, Name, Number, BagSize, Weight, People):  # 類別初始化的函數 initialize 一開始要做的函數
         self.snowName = Name
         self.snowNumber = Number
@@ -53,5 +53,5 @@ label3.place(x=60, y=100)                                # 指定元件位置 x=
 label4 =tk.Label(win,text="產品重量:"+str(snow.snowWeight))  # 建立文字
 label4.place(x=80, y=120)                                # 指定元件位置 x=80, y=120 的位置
 label5 =tk.Label(win,text="容納人數:"+str(snow.snowPeople))  # 建立文字
-label5.place(x=100, y=140)                                # 指定元件位置 x=100, y=140 的位置
+label5.place(x=100, y=180)                                # 指定元件位置 x=100, y=140 的位置
 win.mainloop()                                            # 最後步驟：程式做無限循環
