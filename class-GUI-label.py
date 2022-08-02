@@ -1,6 +1,9 @@
 """
 7/13class-method+GUI 作業
 我來改一下囉
+
+
+#協助者:仙人掌
 """
 # 使用 class 建立
 # 一個class
